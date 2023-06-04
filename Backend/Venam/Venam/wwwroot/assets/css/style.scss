@@ -1,0 +1,43 @@
+@import '_main.scss';
+@import '_shop.scss';
+@import '_basket.scss';
+@import '_details.scss';
+@import '_create-acount.scss';
+@import '_contact.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.active-block{
+    display: block !important;
+}
+
+.categories-list {
+    .owl-nav {
+        position: absolute;
+        top: -80px;
+        right: 0;
+
+        button {
+            &:hover {
+                background: none !important;
+                color: #000 !important;
+            }
+        }
+    }
+}
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+
